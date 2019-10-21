@@ -82,6 +82,9 @@ a {
     font-size: 11px;
 }
 
+a {
+    color: #ffbf00;
+}
 
 /* typography
 ==================================================*/
@@ -826,9 +829,9 @@ b i:last-child {
 ==================================================*/
 
 footer {
-    padding: 30px 0;
+    /* padding: 30px 0; */
     text-align: center;
-    background: #f5f5f5
+    background: #c9dfe2
 }
 
 .copyright {
