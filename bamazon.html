@@ -87,31 +87,39 @@
 
         <div class="col-md-12">
             <h3 class="text-uppercase">Bamazon</h3>
-            <h5>Creative & Lorem ipsum dolor sit amet</h5>
+            <!-- <h5>An Amazon like application </h5> -->
             <div class="h-30"></div>
         </div>
 
         <div class="col-md-9">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliter enim nosmet ipsos nosse non possumus. Inscite autem medicinae et gubernationis ultimum cum ultimo sapientiae comparatur. Tecum optime, deinde etiam cum mediocri amico. Et nemo nimium beatus est; Ac ne plura complectar-sunt enim innumerabilia-, bene laudata virtus voluptatis aditus ultimum cum ultimo sapientiae Et nemo nimium beatus est </p>
+            <p>This application implements a simple command line based storefront using the npm inquirer package and the MySQL database backend together with the npm mysql package. The application presents two interfaces: Customer and Manager.</p>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliter enim nosmet ipsos nosse non possumus. Inscite autem medicinae et gubernationis ultimum cum ultimo sapientiae comparatur. Tecum optime, deinde etiam cum mediocri amico. Et nemo nimium beatus est; Ac ne plura complectar-sunt enim innumerabilia </p>
+            <p><strong>Customer Interface:</strong>
+                    Allows the user to view the current inventory of store items: item IDs, product name, department in which the item is located, price and quantity. The user is then able to purchase a product by entering the item ID and the desired quantity. If the selected quantity is currently in stock, the user's order is fulfilled, displaying the total purchase price and updating the stock quantity. If the desired quantity is not available, the user is prompted to modify their order.
+            </p>
+
+            <p><strong>Manager Interface:</strong>
+                    Using the inquirer package, the manager interface presents the user with 3 options: View Products for Sale, View Low Inventory, and Add to Inventory.
+                    <br> 
+                    The View Products for Sale option allows the user to view the current inventory of store items: item IDs, product names, department in which the item is located, price, and the quantity available in stock.
+                    <br>
+                    The View Low Inventory option shows the user the items which currently have fewer than 100 units available.
+                    <br>
+                    The Add to Inventory option allows the user to select a given item ID and add additional inventory to the target item.
+  
+        </p>
         </div>
 
         <div class="col-md-3">
-            <ul class="cat-ul">
-                <li><i class="ion-ios-circle-filled"></i> Design</li>
-                <li><i class="ion-ios-circle-filled"></i> consectetur adipiscing</li>
-                <li><i class="ion-ios-circle-filled"></i> et gubernationis</li>
-                <li><i class="ion-ios-circle-filled"></i> Aliter enim nosmet</li>
-            </ul>
-            <div class="h-10"></div>
-            <h4>Share</h4>
-            <ul class="social-ul">
-                <li class="box-social"><a href="#0"><i class="ion-social-facebook"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-instagram-outline"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-twitter"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-dribbble"></i></a></li>
-            </ul>
+                <ul class="cat-ul">
+                    <li><strong>Technologies Used:</strong> </li>
+                    <li>Node.js, MySQL, HTML</li>
+                    <li><strong>NPM Packages:</strong> </li>
+                    <li>inquirer, mysql</li>
+                    <br>
+                    <li><strong>View Application:</strong> </li>
+                    <li><a href="https://github.com/cmcshea/Bamazon" target ="_blank">Github</a></li>
+                </ul>
         </div>
     </div>
     <!-- end main-container -->
